@@ -17,7 +17,7 @@ from pytorchvideo import transforms as pv_transforms
 from pytorchvideo.data.clip_sampling import ConstantClipsPerVideoSampler
 from pytorchvideo.data.encoded_video import EncodedVideo
 from torchvision import transforms
-from torchvision.transforms import Normalize
+from torchvision.transforms import NormalizeVideo
 
 from imagebind.models.multimodal_preprocessors import SimpleTokenizer
 
